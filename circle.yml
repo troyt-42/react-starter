@@ -11,9 +11,6 @@ dependencies:
   override:
     - yarn install
 test:
-  pre:
-    - yarn clean
-    - yarn pretest
   override:
     - yarn test
 general:
